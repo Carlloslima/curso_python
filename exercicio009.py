@@ -1,0 +1,12 @@
+numero = int(input("Digite um valor inteiro: "))
+
+print(" {} X {} = {} ".format(1, numero,numero * 1 ))
+print(" {} X {} = {} ".format(2, numero,numero * 2 ))
+print(" {} X {} = {} ".format(3, numero,numero * 3 ))
+print(" {} X {} = {} ".format(4, numero,numero * 4 ))
+print(" {} X {} = {} ".format(5, numero,numero * 5 ))
+print(" {} X {} = {} ".format(6, numero,numero * 6 ))
+print(" {} X {} = {} ".format(7, numero,numero * 7 ))
+print(" {} X {} = {} ".format(8, numero,numero * 8 ))
+print(" {} X {} = {} ".format(9, numero,numero * 9 ))
+print(" {} X {} = {} ".format(10, numero,numero * 10 ))

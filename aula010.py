@@ -6,3 +6,5 @@ if condicao == 'true':
     print("ok")
 else:
     print("nok")
+
+

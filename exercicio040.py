@@ -5,9 +5,10 @@ media = (n1 + n2) / 2
 
 if media < 5.0:
     print("REPROVADO")
-elif media >= 5.0 and media <= 6.9:
+elif 7 > media >= 5.0:
+#elif media >= 5.0 and media <= 6.9:
     print("RECUPERAÇÃO")
 else:
     print("APROVADO")
 
-print(media)
+print("A media é {} ".format(media))

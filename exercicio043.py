@@ -1,9 +1,9 @@
 peso = float(input("Peso: "))
 altura = float(input("Altura: "))
 
-peso_convertido = peso / 100
+imc = peso / (altura ** 2)
 
-imc: float = peso_convertido
+print("O imc dessa pessoa é de {:.1f}".format(imc))
 
 if imc < 18.5:
     print("Abaixo do peso!")

@@ -4,11 +4,11 @@ idade = date.today().year - ano
 
 if idade <= 9:
     print("Mirim")
-elif idade > 9 and idade <= 14:
+elif idade <= 14:
     print("Infantil")
-elif idade > 14 and idade <= 19:
+elif  idade <= 19:
     print("Junior")
-elif idade == 20:
+elif idade <= 25:
     print("Senior")
-elif idade > 20:
+else:
     print("Master")

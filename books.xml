@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:app="http://www.w3.org/2007/app" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xmlns:odl="http://opds-spec.org/odl" xmlns:schema="http://schema.org">
+  <id>https://catalog.feedbooks.com/catalog/public_domain.atom</id>
+  <title>Public Domain Books</title>
+  <updated>2020-09-12T03:54:57Z</updated>
+  <icon>/favicon.ico</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>help@demarque.com</email>
+  </author>
+  <link rel="self" type="application/atom+xml; profile=opds-catalog; kind=navigation; charset=utf-8" href="https://catalog.feedbooks.com/catalog/public_domain.atom"/>
+  <link rel="start" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Home" href="https://catalog.feedbooks.com/catalog/index.atom"/>
+  <link rel="search" href="https://catalog.feedbooks.com/opensearch.xml" type="application/opensearchdescription+xml" title="Search on Feedbooks"/>
+  <link rel="http://opds-spec.org/shelf" type="application/atom+xml;profile=opds-catalog;kind=acquisition" title="Bookshelf" href="https://www.feedbooks.com/user/bookshelf.atom"/>
+<link rel="http://opds-spec.org/featured" type="application/atom+xml;profile=opds-catalog;kind=acquisition" title="Featured Books" href="https://catalog.feedbooks.com/publicdomain/browse/homepage_selection.atom?lang=en"/>
+<link rel="http://opds-spec.org/sort/popular" type="application/atom+xml;profile=opds-catalog;kind=acquisition" title="Literary" href="https://catalog.feedbooks.com/publicdomain/browse/best.atom?cat=FBFIC019000&amp;lang=en"/>
+<link rel="http://opds-spec.org/sort/popular" type="application/atom+xml;profile=opds-catalog;kind=acquisition" title="Mystery &amp; Detective" href="https://catalog.feedbooks.com/publicdomain/browse/best.atom?cat=FBFIC022000&amp;lang=en"/>
+<link rel="http://opds-spec.org/sort/popular" type="application/atom+xml;profile=opds-catalog;kind=acquisition" title="Science Fiction" href="https://catalog.feedbooks.com/publicdomain/browse/best.atom?cat=FBFIC028000&amp;lang=en"/>
+<entry>
+  <title>Most Popular</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/sort/popular" href="https://catalog.feedbooks.com/publicdomain/browse/top.atom?lang=en"/>
+  <updated>2020-09-12T03:54:57Z</updated>
+  <id>https://catalog.feedbooks.com/publicdomain/browse/top.atom?lang=en</id>
+  <content type="text">Based on last week's downloads</content>
+</entry>
+<entry>
+  <title>Recently Added</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/sort/new" href="https://catalog.feedbooks.com/publicdomain/browse/recent.atom?lang=en"/>
+  <updated>2020-09-12T03:54:57Z</updated>
+  <id>https://catalog.feedbooks.com/publicdomain/browse/recent.atom?lang=en</id>
+  <content type="text">Find the latest books available</content>
+</entry>
+<entry>
+  <title>Fiction</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="https://catalog.feedbooks.com/publicdomain/category/FBFIC000000/sub.atom"/>
+  <updated>2020-09-12T03:54:57Z</updated>
+  <id>https://catalog.feedbooks.com/publicdomain/category/FBFIC000000/sub.atom</id>
+  <content type="text">Browse book by category</content>
+</entry>
+<entry>
+  <title>Non-Fiction</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="https://catalog.feedbooks.com/publicdomain/category/FBNFC000000/sub.atom"/>
+  <updated>2020-09-12T03:54:57Z</updated>
+  <id>https://catalog.feedbooks.com/publicdomain/category/FBNFC000000/sub.atom</id>
+  <content type="text">Browse book by category</content>
+</entry>
+</feed>
